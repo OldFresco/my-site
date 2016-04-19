@@ -1,190 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+
     <meta charset="utf-8">
-    <title>Hello</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Building software amongst other things">
+    <meta name="author" content="Kojo Hinson">
 
-    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="My First Node App" />
+    <title>Hi</title>
 
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- Loading Flat UI -->
-    <link href="flat-ui.min.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
+<body id="page-top">
 
-        <!-- navbar row -->
-        <div class="row banner-row">
-            <div class="col-xs-12">
-                <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-                            <span class="sr-only">Toggle navigation</span>
-                        </button>
-                        <a class="navbar-brand" href="#">Menu</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar-collapse-01">
-                        <!-- navbar-collapse -->
-                        <ul class="nav navbar-nav navbar-left">
-                            <li><a href="#fakelink">Home</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Stuff <b class="caret"></b></a>
-                                <span class="dropdown-arrow"></span>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Resum&eacute;</a></li>
-                                    <li><a href="#">Thoughts</a></li>
-                                    <li><a href="#">Projects</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#fakelink">Contact + Social</a></li>
-                        </ul>
-                        <form class="navbar-form navbar-right" action="#" role="search">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
-                                    <span class="input-group-btn">
-                                            <button type="submit" class="btn"><span class="fui-search"></span></button>
-                                    </span>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </nav>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a target="_blank"  href="https://uk.linkedin.com/in/kojo-hinson-69a4074a
+">Resum&eacute;</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#About">About</a>                        
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Thoughts">Thoughts</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Dev/Human.</h1>
+                <hr>
+                <p><font color="black">.NET + More</font></p>
+                <a target="_blank" href="https://uk.linkedin.com/in/kojo-hinson-69a4074a
+" class="btn btn-primary btn-xl page-scroll">Resum&eacute;</a>
+                <a href="#Contact" class="btn btn-primary btn-xl page-scroll">Contact</a>
             </div>
         </div>
-        <!-- /navbar -->
+    </header>
 
-        <!-- main-headline -->
-        <div class="main-headline">
-            <h1 class="main-logo">
-                <div class="logo"></div>
-                    Kojo Hinson
-                    <small>Dev/Human</small>
-                </h1>
-        </div>
-        <!-- /main-headline -->
-        
-         <!-- Resume block -->
-        <div class=".panelblock block-resume">
-            <div id="header">
-                <p id="name">Resume</p>
-                <a href="mailto:you@yourdomain.com">
-                    <p id="email">you@yourdomain.com</p>
-                </a>
-            </div>
-            <div class="right">
-                <h4>Objective</h4>
-                <p>To take a position as a software engineer.</p>
-                <h4>Experience</h4>
-                <p>Junior Developer, Software Company (2010 - Present)</p>
-                <ul>
-                    <li>Designed and implemented end-user features for Flagship Product</li>
-                    <li>Wrote third-party JavaScript and Ruby libraries</li>
-                </ul>
-                <h4>Skills</h4>
-                <p>Languages: C#, JavaScript, Python, Ruby</p>
-                <p>Frameworks: .NET, Node.js, Django, Ruby on Rails</p>
-                <h4>Education</h4>
-                <p>BS, Economics, My University</p>
-                <ul>
-                    <li>Award for best senior thesis</li>
-                    <li>GPA: 3.8</li>
-                </ul>
-            </div>
-        </div>  <!-- /Resume Block -->
-        
-         <!-- Thoughts Block -->
-        <div class=".panelblock block-thoughts">
-            <div id="header">
-                <p id="name">Resume</p>
-                <a href="mailto:you@yourdomain.com">
-                    <p id="email">you@yourdomain.com</p>
-                </a>
-            </div>
-            <div class="right">
-                <h4>Objective</h4>
-                <p>To take a position as a software engineer.</p>
-                <h4>Experience</h4>
-                <p>Junior Developer, Software Company (2010 - Present)</p>
-                <ul>
-                    <li>Designed and implemented end-user features for Flagship Product</li>
-                    <li>Wrote third-party JavaScript and Ruby libraries</li>
-                </ul>
-                <h4>Skills</h4>
-                <p>Languages: C#, JavaScript, Python, Ruby</p>
-                <p>Frameworks: .NET, Node.js, Django, Ruby on Rails</p>
-                <h4>Education</h4>
-                <p>BS, Economics, My University</p>
-                <ul>
-                    <li>Award for best senior thesis</li>
-                    <li>GPA: 3.8</li>
-                </ul>
-            </div>
-        </div>  <!-- /Thoughts Block -->
-
-
-    <!-- Footer -->
-    <footer>
+    <section class="bg-primary" id="About">
         <div class="container">
             <div class="row">
-                <div class="col-xs-7">
-                    <!-- Left Pane -->
-                    <h3 class="footer-title">Contact + Social</h3>
-                    <p> E-mail : <a href="www.kojo." target="_blank">hinsonkojo[at]gmail.com</a>
-                    </p>
-
-                    <p class="pvl">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://designmodo.com/flat-free/" data-text="Flat UI Free - PSD&amp;amp;HTML User Interface Kit"
-                        data-via="designmodo">Tweet</a>
-                        <script>
-                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-                        </script>
-                        <iframe src="http://ghbtns.com/github-btn.html?user=designmodo&repo=Flat-UI&type=watch&count=true" height="20" width="107"
-                        frameborder="0" scrolling="0" style="width:105px; height: 20px;" allowTransparency="true"></iframe>
-                        <iframe src="http://ghbtns.com/github-btn.html?user=designmodo&repo=Flat-UI&type=fork&count=true" height="20" width="107"
-                        frameborder="0" scrolling="0" style="width:105px; height: 20px;" allowTransparency="true"></iframe>
-                        <iframe src="http://ghbtns.com/github-btn.html?user=designmodo&type=follow&count=true" height="20" width="195" frameborder="0"
-                        scrolling="0" style="width:195px; height: 20px;" allowTransparency="true"></iframe>
-                    </p>
-
-                    <a class="footer-brand" href="http://designmodo.com" target="_blank">
-                        <img src="docs/assets/img/footer/logo.png" alt="Designmodo.com" />
-                    </a>
-                </div>
-                <!-- /Left Pane -->
-
-                <div class="col-xs-5">
-                    <!-- Right Pane -->
-                    <div class="footer-banner">
-                        <h3 class="footer-title">Get Flat UI Pro</h3>
-                        <ul>
-                            <li>Tons of Basic and Custom UI Elements</li>
-                            <li>A Lot of Useful Samples</li>
-                            <li>More Vector Icons and Glyphs</li>
-                            <li>Pro Color Swatches</li>
-                            <li>Bootstrap Based HTML/CSS/JS Layout</li>
-                        </ul>
-                        Go to: <a href="http://designmodo.com/flat" target="_blank">designmodo.com/flat</a>
-                    </div>
-                </div>
-                <!-- /Right Pane -->
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Brief Bio</h2>
+                    <hr class="light">
+                    <p class="text-faded">Nuclear Physics blah blah FORTRAN blah blah Boots and C# blah blah Sequensis oh and Machine Learning is great.</p>                </div>
             </div>
         </div>
-    </footer>
-    <!-- /Footer -->
+    </section>
 
-    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
-    <script src="jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="video.js"></script>
-    <script src="flat-ui.min.js"></script>
+    <section id="Thoughts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Thoughts + Other things that interest me</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-space-shuttle wow bounceIn text-primary"></i>
+                        <h3>The Universe & Reality</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-life-saver wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Building a Better World</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-comment wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Language, A.I., and Consciousness</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-music wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Music Evolved</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="About">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact Info</h2>
+                    <hr class="primary">
+                    <p>You can reach me via: </p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>No</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:hinsonkojo@gmail.com">Email</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
 </body>
 
 </html>
