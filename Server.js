@@ -20,6 +20,6 @@ app.use('*', function(req, res) {
     res.sendFile(path + '404.html')
 });
 
-app.listen(3000, function() {
-    console.log('Live at Port 3000')
+app.listen(1337, function() {
+    console.log('Live at Port 1337')
 });
