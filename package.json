@@ -6,6 +6,9 @@
         "start": "node Server.js"
     },
     "author": "Kojo Hinson",
+    "engines": {
+        "node": "6.6.0"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/OldFresco/my-site"
